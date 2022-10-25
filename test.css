@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hd_l{
+    display: flex;
+    justify-content: center;
+}
+
+.p2{
+    color: black;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    /* position: absolute;
+    top: 1772px; */
+}
+
+.p3{
+    color: #9e9e9e;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    /* position: absolute;
+    top: 1812px; */
+}
+
+.ap{
+    height: 472px;
+    background-color: #ececec;
+    display: flex;
+    align-items: center;
+}
+
+.ap1{
+    width: 100%;
+    height: 440px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ap2{
+    height: 100%;
+    width: 278px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ap3{
+    width: 252px;
+    height: 142px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px #0000001a;
+    /* position: relative;
+    overflow: hidden; */
+}
+
+.ap_img{
+    /* position: absolute;
+    inset: 0; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+    transition: .75s;
+    /* transition: transform .75s; */
+}
+
+.ap_img:hover {
+    transform: scale(1.10);
+    z-index: 2;
+}
+
+.sb_title6{
+    padding-left: 104px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    padding-top: 24px;
+    cursor: pointer;
+}
+
+.sb_title7{
+    padding-left: 86px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #9e9e9e;
+    cursor: pointer;
+    padding-top: 2px;
+}
+
+.sb_title8{
+    padding-left: 86px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    padding-top: 24px;
+    cursor: pointer;
+}
+
+.sb_title9{
+    padding-left: 94px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #9e9e9e;
+    cursor: pointer;
+    padding-top: 2px;
+}
+
+.sb_title4{
+    padding-left: 92px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    padding-top: 24px;
+    cursor: pointer;
+}
+
+.sb_title15{
+    padding-left: 92px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #9e9e9e;
+    cursor: pointer;
+    padding-top: 2px;
+}
